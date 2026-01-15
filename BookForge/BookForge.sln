@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookForge", "BookForge.csproj", "{92F89C66-6F97-4EC5-9DBE-4F424C647FDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F89C66-6F97-4EC5-9DBE-4F424C647FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F89C66-6F97-4EC5-9DBE-4F424C647FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F89C66-6F97-4EC5-9DBE-4F424C647FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F89C66-6F97-4EC5-9DBE-4F424C647FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53696364-33B7-43CA-9EF7-F2CF3FCE2139}
+	EndGlobalSection
+EndGlobal
