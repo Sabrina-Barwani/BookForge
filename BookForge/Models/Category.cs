@@ -5,6 +5,7 @@ namespace BookForge.Models
 {
     public class Category
     {
+        // client side validation 
         [Key]
         public int Id { get; set; }
         [Required]
