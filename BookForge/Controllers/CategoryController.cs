@@ -28,12 +28,26 @@ namespace BookForge.Controllers
         [HttpPost]
         public IActionResult Create( Category obj)
         {
-            _db.Categories.Add(obj);
+            if(obj.Name == obj.DisplayOrder.ToString())
+            { 
+                ModelState.AddModelError("name", "The DisplayOrder cannot exactly match the Name.");
+            }
+            // not under any specific field validation
+            if(obj.Name== "test")
+            {
+                ModelState.AddModelError("", "test is an invalid value" );
+            }
+            // if the obj valid
+            if (ModelState.IsValid)
+            {
+                _db.Categories.Add(obj);
 
-            // to create the category in database
-            _db.SaveChanges();
+                // to create the category in database
+                _db.SaveChanges();
 
-            return RedirectToAction("Index");
+                return RedirectToAction("Index");
+            }
+            return View();
         }
     }
 }

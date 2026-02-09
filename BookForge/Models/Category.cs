@@ -10,9 +10,11 @@ namespace BookForge.Models
         [Required]
 
         [DisplayName("Category Name")]
+        [MaxLength(30)]
         public string Name { get; set; }
 
         [DisplayName("Display Order")]
+        [Range(1,100,ErrorMessage ="must be between 1-100")]
         public string DisplayOrder { get; set; }
     }
 }
