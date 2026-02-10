@@ -1,0 +1,34 @@
+﻿using BookForge.DataAccess.Data;
+using BookForge.DataAccess.Repository.IRepository;
+using BookForge.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BookForge.DataAccess.Repository
+{
+    public class CatogryRepository : Repository<Category>, ICategoryRepository
+    {
+        private ApplicationDbContext _db;
+
+        public CatogryRepository (ApplicationDbContext db) : base(db)
+        {
+            _db = db;
+        }
+
+         
+
+
+        public void Save()
+        {
+            _db.SaveChanges();
+        }
+
+        public void Update(Category obj)
+        {
+            _db.Categories.Update(obj);
+        }
+    }
+}

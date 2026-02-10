@@ -1,7 +1,7 @@
 ﻿using BookForge.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BookForge.Data
+namespace BookForge.DataAccess.Data
 {
     // represent database context
     public class ApplicationDbContext : DbContext
@@ -14,7 +14,7 @@ namespace BookForge.Data
         }
 
         // create table Categories in database
-        public DbSet <Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
 
         // data from database

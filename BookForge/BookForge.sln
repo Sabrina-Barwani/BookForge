@@ -5,6 +5,12 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookForge", "BookForge.csproj", "{92F89C66-6F97-4EC5-9DBE-4F424C647FDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookForge.DataAccess", "..\BookForge.DataAccess\BookForge.DataAccess.csproj", "{BEE1C5F2-478B-4CF1-B591-0482DB9C5828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookForge.Models", "..\BookForge.Models\BookForge.Models.csproj", "{F5C5A9E9-5B23-4831-A2BC-0F2DE3096EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookForge.Utility", "..\BookForge.Utility\BookForge.Utility.csproj", "{96238F6F-0C76-4F4A-A4A4-E68732C83DDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{92F89C66-6F97-4EC5-9DBE-4F424C647FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F89C66-6F97-4EC5-9DBE-4F424C647FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F89C66-6F97-4EC5-9DBE-4F424C647FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE1C5F2-478B-4CF1-B591-0482DB9C5828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE1C5F2-478B-4CF1-B591-0482DB9C5828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE1C5F2-478B-4CF1-B591-0482DB9C5828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE1C5F2-478B-4CF1-B591-0482DB9C5828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C5A9E9-5B23-4831-A2BC-0F2DE3096EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C5A9E9-5B23-4831-A2BC-0F2DE3096EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C5A9E9-5B23-4831-A2BC-0F2DE3096EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C5A9E9-5B23-4831-A2BC-0F2DE3096EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96238F6F-0C76-4F4A-A4A4-E68732C83DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96238F6F-0C76-4F4A-A4A4-E68732C83DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96238F6F-0C76-4F4A-A4A4-E68732C83DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96238F6F-0C76-4F4A-A4A4-E68732C83DDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
