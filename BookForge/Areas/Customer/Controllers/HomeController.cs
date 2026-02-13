@@ -2,10 +2,12 @@ using System.Diagnostics;
 using BookForge.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BookForge.Controllers
+namespace BookForge.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
+        
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
