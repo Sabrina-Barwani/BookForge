@@ -21,8 +21,4 @@
     <ProjectReference Include="..\BookForge.Utility\BookForge.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
